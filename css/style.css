@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito", sans-serif;
+}
+header{
+    width: 75%;
+    margin: 40px auto 40px auto;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+h1{
+    color: #e53170;
+    margin-bottom: 50px;
+    font-weight: 900;
+    font-size: 42px;
+}
