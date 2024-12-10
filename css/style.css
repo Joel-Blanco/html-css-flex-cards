@@ -8,15 +8,61 @@ body{
     font-family: "Nunito", sans-serif;
 }
 header{
-    width: 75%;
+    width: 70%;
     margin: 40px auto 40px auto;
     background-color: blueviolet;
     text-align: center;
+}
+
+header p{
+    font-size: 17px;
 }
 
 h1{
     color: #e53170;
     margin-bottom: 50px;
     font-weight: 900;
-    font-size: 42px;
+    font-size: 40px;
+}
+
+.box-container{
+    display: flex;
+    width:70%;
+    -height: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    column-gap: 30px;
+    row-gap: 50px;
+}
+
+.box img{
+    width: 130px;
+}
+
+.box{
+    display: flex;
+    height:130px;
+    background-color: chartreuse;
+    flex-basis: calc(100%/3 - 20px);
+}
+
+.info{
+    align-self: center;
+    padding-left: 25px;
+    line-height: 32px;
+    color: #ffffff;
+}
+
+.info h3{
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.info p{
+    font-size: 18px;
+}
+
+.mail{
+    color: #17ccf2;
 }
