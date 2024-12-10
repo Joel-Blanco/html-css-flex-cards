@@ -9,8 +9,7 @@ body{
 }
 header{
     width: 70%;
-    margin: 40px auto 40px auto;
-    background-color: blueviolet;
+    margin: 45px auto 60px auto;
     text-align: center;
 }
 
@@ -31,7 +30,6 @@ h1{
     -height: 800px;
     margin: 0 auto;
     flex-wrap: wrap;
-    background-color: blueviolet;
     column-gap: 30px;
     row-gap: 50px;
 }
@@ -43,13 +41,14 @@ h1{
 .box{
     display: flex;
     height:130px;
-    background-color: chartreuse;
+    background-color: #0f0e17;
+    box-shadow: 0px 0px 8px #0f0e17;
     flex-basis: calc(100%/3 - 20px);
 }
 
 .info{
     align-self: center;
-    padding-left: 25px;
+    padding: 10px 25px 10px 25px;
     line-height: 32px;
     color: #ffffff;
 }
